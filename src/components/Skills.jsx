@@ -15,8 +15,7 @@ export function Skills () {
       <h1 className='text-center font-bold text-2xl cursor-default'>Juan Ignacio Alvarez</h1>
       <img src={ME} className='m-auto mt-5 rounded-3xl h-80' />
       <button className='border border-black mt-2 bg-black text-white font-semibold p-2 rounded-md hover:bg-white hover:text-black transition-all flex gap-2'>
-        DOWNLOAD CV
-        {/* TODO: ADD FUNCIONALITY */}
+        <a download href='../assets/Juan Alvarez.pdf'>DOWNLOAD CV</a>
       </button>
       <p className='text-center mt-4 cursor-default'>I'm Developer Front End Trainee, electronics technician and student of computer science degree. Passionate for web development. I desire to grow up professonally, learn, better oneself and have my first work experiences.</p>
 
