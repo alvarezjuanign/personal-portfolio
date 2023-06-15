@@ -17,7 +17,7 @@ export function Skills () {
           <h1 className='font-bold text-2xl cursor-default text-center'>Juan Ignacio Alvarez</h1>
           <p className='text-center cursor-default'>I'm Developer Front End Trainee, electronics technician and student of computer science degree. Passionate for web development. I desire to grow up professonally, learn, better oneself and have my first work experiences.</p>
           <button className='border border-black mt-2 bg-black text-white font-semibold p-2 rounded-md hover:bg-white hover:text-black transition-all flex gap-2'>
-            <a download href='../assets/Juan Alvarez.pdf'>DOWNLOAD CV</a>
+            <a download href='../assets/JuanAlvarez.pdf'>DOWNLOAD CV</a>
           </button>
         </div>
       </div>
