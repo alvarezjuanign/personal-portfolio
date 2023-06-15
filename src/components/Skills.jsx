@@ -4,7 +4,6 @@ import CSS from '../assets/css-3-svgrepo-com.svg'
 import TAILWIND from '../assets/tailwind-svgrepo-com.svg'
 import JS from '../assets/js-svgrepo-com.svg'
 import REACT from '../assets/react-svgrepo-com.svg'
-import NODEJS from '../assets/node-js-svgrepo-com.svg'
 import NPM from '../assets/npm-svgrepo-com.svg'
 import GIT from '../assets/git-svgrepo-com.svg'
 import GITHUB from '../assets/github-svgrepo-com.svg'
@@ -29,7 +28,6 @@ export function Skills () {
         <img src={JS} className='h-10' />
         <img src={TAILWIND} className='h-10' />
         <img src={REACT} className='h-10' />
-        <img src={NODEJS} className='h-10' />
         <img src={NPM} className='h-10' />
         <img src={GIT} className='h-10' />
         <img src={GITHUB} className='h-10' />
