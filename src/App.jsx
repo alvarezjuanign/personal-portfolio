@@ -8,7 +8,7 @@ export function App () {
 
       <Project />
 
-      <footer className='bg-black text-white w-full mt-6'>
+      <footer className='bg-black text-white w-full'>
         <p className='text-center'>©️ Todos los derechos reservados.</p>
       </footer>
     </main>
