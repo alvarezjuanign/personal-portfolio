@@ -7,6 +7,7 @@ import REACT from '../assets/react-svgrepo-com.svg'
 import NPM from '../assets/npm-svgrepo-com.svg'
 import GIT from '../assets/git-svgrepo-com.svg'
 import GITHUB from '../assets/github-svgrepo-com.svg'
+import CV from '../assets/JuanAlvarez.pdf'
 
 export function Skills () {
   return (
@@ -17,7 +18,7 @@ export function Skills () {
           <h1 className='font-bold text-2xl cursor-default text-center'>Juan Ignacio Alvarez</h1>
           <p className='text-center cursor-default'>I'm Developer Front End Trainee, electronics technician and student of computer science degree. Passionate for web development. I desire to grow up professonally, learn, better oneself and have my first work experiences.</p>
           <button className='border border-black mt-2 bg-black text-white font-semibold p-2 rounded-md hover:bg-white hover:text-black transition-all flex gap-2'>
-            <a target='_blank' href='/JuanAlvarez.pdf'>DOWNLOAD CV</a>
+            <a target='_blank' href={CV} download='Alvarez-Juan-CV' rel='noreferrer'>DOWNLOAD CV</a>
           </button>
         </div>
       </div>
