@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (prefers-color-scheme :dark){
+    body{
+        background: #17191c;
+    }
+}
+
+/* MODIFY SCROLLBAR FIREFOX*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: inherit #3463fd;
+}
+
+/* MODIFY SCROLLBAR CHROME EDGE SAFARI*/
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: inherit;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #3463fd;
+    border-radius: 20px;
+    border: #3463fd;
+}

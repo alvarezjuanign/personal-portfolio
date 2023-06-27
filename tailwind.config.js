@@ -1,11 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'media',
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      keyframes: {
+        'fade-in-y': {
+          '0%': { opacity: 0, transform: 'translateY(25px)' },
+          '100%': { opacity: 1, transform: 'translateY(0px)' }
+        }
+      },
+      animation: {
+        'fade-in-y': 'fade-in-y 1s linear'
+      }
+    }
   },
   plugins: []
 }
