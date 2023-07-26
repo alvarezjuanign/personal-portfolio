@@ -1,0 +1,29 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "title" : "LA ARBOLEDA",
+            "image" : "src/assets/proyecto-cabañas.jpeg",
+            "linkGithub" : "https://github.com/alvarezjuanign/proyecto-UTN",
+            "linkDeploy" : "https://proyecto-utn-two.vercel.app",
+            "description" : "Landing page de unas cabañas ubicadas en San luis. Proyecto final- BA multiplica 2.0.",
+            "techs" : {
+                "html" : "src/assets/html-5-svgrepo-com.svg",
+                "css" : "src/assets/css-3-svgrepo-com.svg",
+                "js" : "src/assets/js-svgrepo-com.svg"
+            }
+        },
+        {
+            "id" : 2,
+            "title" : "IGLESIA PROYECTO DE VIDA",
+            "image" : "src/assets/landingIglesia.webp",
+            "linkGithub" : "https://github.com/alvarezjuanign/landing-iglesia",
+            "linkDeploy" : "#",
+            "description" : "Landing page de una Iglesia, ubicada en Floresta.",
+            "techs" : {
+                "tailwind" : "src/assets/tailwind-svgrepo-com.svg",
+                "react" : "src/assets/react-svgrepo-com.svg"
+            }
+        }
+    ]
+}
