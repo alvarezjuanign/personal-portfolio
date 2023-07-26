@@ -1,14 +1,14 @@
-import { Skills } from './components/Skills'
+import { About } from './components/About'
 import { Project } from './components/Projects'
+import { Skills } from './components/Skills'
+import { projects } from './mocks/projects.json'
 
 export function App () {
   return (
     <main className='flex flex-col items-center'>
+      <About />
+      <Project projects={projects} />
       <Skills />
-      <Project
-        projectName='CABAÑAS LA ARBOLEDA'
-        descriptionProject='Landing page de unas cabañas ubicadas en San luis. Proyecto final- BA multiplica 2.0.'
-      />
       <footer className='bg-[#3463fd] text-white w-full'>
         <p className='text-center'>©️ Todos los derechos reservados.</p>
       </footer>
