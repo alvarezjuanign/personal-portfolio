@@ -29,7 +29,7 @@ export function MappedProjects ({ projects }) {
                 </div>
                 <div className='flex'>
                   {project.techs.map((tech) => (
-                    <img key={tech} alt={`${tech} logo`} src={tech} className='h-7' />
+                    <img key={tech} alt='logo of techs' src={tech} className='h-7' />
                   ))}
                 </div>
               </section>
