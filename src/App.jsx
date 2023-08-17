@@ -9,7 +9,7 @@ export function App () {
       <Projects />
       <Skills />
       <footer className='bg-[#3463fd] text-white w-full'>
-        <p className='text-center'>©️ Todos los derechos reservados.</p>
+        <p className='text-center p-4'>Made by Alvarez Juan 🤍</p>
       </footer>
     </main>
   )
