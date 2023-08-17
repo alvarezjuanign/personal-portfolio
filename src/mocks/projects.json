@@ -3,10 +3,10 @@
         {
             "id" : 1,
             "title" : "LA ARBOLEDA",
-            "image" : "src/assets/proyecto-cabañas.jpeg",
+            "image" : "src/assets/landingCabañas.webp",
             "linkGithub" : "https://github.com/alvarezjuanign/proyecto-UTN",
             "linkDeploy" : "https://proyecto-utn-two.vercel.app",
-            "description" : "Landing page de unas cabañas ubicadas en San luis. Proyecto final- BA multiplica 2.0.",
+            "description" : "Landing page de unas cabañas ubicadas en San luis. Proyecto final - BA multiplica 2.0.",
             "techs" : [
                 "src/assets/html-5-svgrepo-com.svg", 
                 "src/assets/css-3-svgrepo-com.svg", 
