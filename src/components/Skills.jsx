@@ -12,14 +12,14 @@ export function Skills () {
     <section className='my-11'>
       <h3 className='text-center text-2xl font-bold underline dark:text-white'>Skills</h3>
       <div className='flex flex-wrap gap-7 justify-center pt-9 px-9'>
-        <img src={HTML} className='h-10 hover:scale-125' />
-        <img src={CSS} className='h-10 hover:scale-125' />
-        <img src={JS} className='h-10 hover:scale-125' />
-        <img src={TAILWIND} className='h-10 hover:scale-125' />
-        <img src={REACT} className='h-10 hover:scale-125' />
-        <img src={NPM} className='h-10 hover:scale-125' />
-        <img src={GIT} className='h-10 hover:scale-125' />
-        <img src={GITHUB} className='h-10 hover:scale-125' />
+        <img src={HTML} alt='html logo' className='h-10 hover:scale-125' />
+        <img src={CSS} alt='css logo' className='h-10 hover:scale-125' />
+        <img src={JS} alt='javascript logo' className='h-10 hover:scale-125' />
+        <img src={TAILWIND} alt='tailwind logo' className='h-10 hover:scale-125' />
+        <img src={REACT} alt='react logo' className='h-10 hover:scale-125' />
+        <img src={NPM} alt='npm logo' className='h-10 hover:scale-125' />
+        <img src={GIT} alt='git logo' className='h-10 hover:scale-125' />
+        <img src={GITHUB} alt='github logo' className='h-10 hover:scale-125' />
       </div>
     </section>
   )
