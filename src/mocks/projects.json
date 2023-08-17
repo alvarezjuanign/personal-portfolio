@@ -8,9 +8,9 @@
             "linkDeploy" : "https://proyecto-utn-two.vercel.app",
             "description" : "Landing page de unas cabañas ubicadas en San luis. Proyecto final - BA multiplica 2.0.",
             "techs" : [
-                "src/assets/html-5-svgrepo-com.svg", 
-                "src/assets/css-3-svgrepo-com.svg", 
-                "src/assets/js-svgrepo-com.svg"
+                "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/eou6kzvflkc1sufsem7f.svg", 
+                "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/vgrwffzqnbe5mfanotdh.svg", 
+                "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/c8iurlcsqr0rbz8y1uzf.svg"
             ]
         },
         {
@@ -21,8 +21,8 @@
             "linkDeploy" : "#",
             "description" : "Landing page de una Iglesia. Ubicada en Floresta, CABA.",
             "techs" : [
-                "/src/assets/tailwind-svgrepo-com.svg",
-                "src/assets/react-svgrepo-com.svg"
+                "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/lk9bc1j0rlwyjlx0aggq.svg",
+                "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/yvclpdci3whtdk4e9dwf.svg"
             ]
         }
     ]
