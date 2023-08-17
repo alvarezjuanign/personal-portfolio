@@ -10,7 +10,7 @@ export function About () {
         <img src={ME} className='rounded-full h-80 md:h-[500px]' />
         <div className='flex flex-col items-center max-w-[620px] mt-3 md:mx-4'>
           <h1 className='font-bold text-7xl cursor-default text-center mb-6 dark:text-white'>Juan Ignacio Alvarez</h1>
-          <p className=' cursor-default text-lg mb-10 animate-fade-in-y dark:text-white'>Developer Front End Trainee, electronics technician and student of computer science degree. Desire to grow up professonally, learn, better oneself and have my first work experiences.</p>
+          <p className=' cursor-default text-lg mb-10 animate-fade-in-y dark:text-white md:p-3'>Developer Front End Junior, electronics technician and student of computer science. Looking forward to grow professionally, learn and develop my skills and have my first work experience.</p>
           <div className='flex gap-3'>
             <a href='https://github.com/alvarezjuanign'><img className='h-10' src={GITHUB} /></a>
             <a href='https://www.linkedin.com/in/juanigz/'><img className='h-10' src={LINKEDIN} /></a>
