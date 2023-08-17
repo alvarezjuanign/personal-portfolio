@@ -5,7 +5,7 @@ import LINKEDIN from '../assets/linkedin-svgrepo-com.svg'
 
 export function About () {
   return (
-    <section className='px-5 pt-10 h-screen flex flex-col items-center md:justify-center'>
+    <section className='px-5 pt-10 h-screen max-w-4xl flex flex-col items-center md:justify-center'>
       <div className='flex flex-col items-center md:flex-row'>
         <img src={ME} className='rounded-full h-80 md:h-[500px]' />
         <div className='flex flex-col items-center max-w-[620px] mt-3 md:mx-4'>
