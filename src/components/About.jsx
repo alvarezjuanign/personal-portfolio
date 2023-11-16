@@ -1,6 +1,6 @@
 import ME from '../assets/me.webp'
 import GITHUB from '../assets/github-svgrepo-com.svg'
-import CV from '../assets/JuanAlvarez.pdf'
+import CV from '../assets/JuanAlvarezEN.pdf'
 import LINKEDIN from '../assets/linkedin-svgrepo-com.svg'
 
 export function About () {
@@ -15,7 +15,7 @@ export function About () {
             <a href='https://github.com/alvarezjuanign'><img className='h-10' alt='github logo' src={GITHUB} /></a>
             <a href='https://www.linkedin.com/in/juanigz/'><img className='h-10' alt='linkedin logo' src={LINKEDIN} /></a>
             <button className='border border-black bg-[#3463fd] text-white font-semibold p-2 rounded-md hover:bg-white hover:text-black transition-all ease-in-out duration-500 flex gap-2'>
-              <a target='_blank' href={CV} download='Alvarez-Juan-CV' rel='noreferrer'>Resume</a>
+              <a target='_blank' href={CV} download='JuanAlvarez.pdf' rel='noreferrer'>Resume</a>
             </button>
           </div>
         </div>
