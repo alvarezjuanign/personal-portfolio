@@ -13,26 +13,25 @@ export function MappedProjects ({ projects }) {
             <img
               src={project.image}
               alt='image of the website'
-              className='rounded-lg'
             />
-            <article className='absolute top-0 bg-black/90 rounded-lg text-white h-full w-full p-3 opacity-0 hover:opacity-100 flex items-center transition-opacity duration-500 cursor-pointer'>
-              <div className='max-h-36 flex flex-col justify-center gap-2'>
+            <article className='absolute top-0 bg-black/90 text-white h-full w-full p-3 opacity-0 hover:opacity-100 flex items-center transition-opacity duration-500 cursor-pointer'>
+              <div className='max-h-36 flex flex-col justify-center gap-2 w-full'>
                 <h3 className='text-xl font-bold'>{project.title}</h3>
                 <p className='text-lg'>{project.description}</p>
                 <section className='flex w-full justify-around p-3'>
                   <div className='flex gap-2'>
                     <a href={project.linkGithub}>
-                      <img src={logoGithub} alt='github logo' className='h-8' />
+                      <img src={logoGithub} alt='github logo' className='w-8' />
                     </a>
                     <a href={project.linkDeploy}>
                       <img
                         src={logoDeploy}
                         alt='deploy logo'
-                        className='h-8 scale-95 bg-white rounded-full'
+                        className='w-8 bg-white rounded-full p-1'
                       />
                     </a>
                   </div>
-                  <div className='flex'>
+                  <div className='flex w-full justify-end'>
                     {project.techs.map((tech) => (
                       <img
                         key={tech}
