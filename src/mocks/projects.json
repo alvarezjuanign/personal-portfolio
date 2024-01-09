@@ -12,18 +12,6 @@
         ]
       },
       {
-        "id": 2,
-        "title": "PROYECTO DE VIDA (WIP)",
-        "image": "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692309743/eif7ztbyw1lmb0jgq2zv.webp",
-        "linkGithub": "https://github.com/alvarezjuanign/landing-iglesia",
-        "linkDeploy": "#",
-        "description": "Landing page of a Church. Located in Floresta, CABA.",
-        "techs": [
-          "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/lk9bc1j0rlwyjlx0aggq.svg",
-          "https://res.cloudinary.com/ddmtmwlja/image/upload/v1692310460/yvclpdci3whtdk4e9dwf.svg"
-        ]
-      },
-      {
         "id": 3,
         "title": "POKEAPP",
         "image": "https://res.cloudinary.com/ddmtmwlja/image/upload/v1700865885/cqwalpquvpxajkbarvad.webp",
